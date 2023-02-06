@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  background-color: black;
+}
+
+.App{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  font-family: Lato, sans-serif;
+}
+button{
+  width: 250px;
+  height: 80px;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  color: #f0f0f0;
+  border: 2px solid white;
+  border-radius: 15px;
+  margin: 15px;
+  cursor: pointer;
+  font-size: 35px;
+}
+button:hover{
+  background-color: #00471b;
+}
+.btn-clk{
+  background-color: #002ead;
+}
+.btn-reload{
+  background-color: #5a01a7;
+}
+.contador{
+  min-width: 250px;
+  height: 250px;
+  font-size: 160px;
+  padding: 25px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 8px solid white;
+  margin-bottom: 15px;
+}
